@@ -2,8 +2,9 @@
 <html>
 
 <head>
-	<title>about</title>
+	<title>projects</title>
 	<link rel="stylesheet" href="/index.css" />
+	<link rel="stylesheet" href="projects.css" />
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 	</style>
@@ -12,21 +13,54 @@
 </head>
 
 <body>
-	<div class="header">
-		<nav class="navbar">
-			<a class="nav-item" href="\">home</a>
-			<a class="nav-item" href="\about">about</a>
-			<a class="nav-item" href="\projects">projects</a>
-			<a class="nav-item" href="\contact">contact</a>
-		</nav>
-		<a href="\projects">
-			<img class="center-logo" src="images/skullicon.png" />
-		</a>
+	<div class="background-img">
+		<div class="header">
+			<nav class="navbar">
+				<a class="nav-item" href="\">home</a>
+				<a class="nav-item" href="\about">about</a>
+				<a class="nav-item" href="\projects">projects</a>
+				<a class="nav-item" href="images/JaviResume2024.pdf" target="_blank">resume/cv</a>
+			</nav>
+			<a href="\projects">
+				<img class="center-logo" src="images/skullicon.png" />
+			</a>
+		</div>
+		<div class="banner-outer">
+			<img class="banner" src="images/banner.jpg" />
+			<h1 class="name-heading">projects</h1>
+		</div>
+		<div class="project-section">
+			<p> <i>click the images to head to the project repo on github</p>
+			<div class="collection">
+				<div class="showcaseOne">
+					<a href="https://github.com/Vlorrk/chat-app" target="_blank"><img class="chat-img"
+							src="images/vchat.png" /></a>
+					<p> <b><i>vchat </i></b>: app i made using socket.io and express.js.it's a multi-user chat web app
+						with
+						iOS
+						style
+						messages. </p>
+				</div>
+				<div class="showcaseTwo">
+					<a href="https://github.com/Vlorrk/solarsystem" target="_blank"> <img class="solar-img"
+							src="images/solarsystem.png" /> </a>
+					<p> <b><i>solar system </i></b>: 3d model of a mini solar system made with three.js and online
+						texture
+						assets.
+					</p>
+				</div>
+				<div class="showcaseThree">
+					<a href="https://github.com/Vlorrk/react-calc" target="_blank"> <img class="calc-img"
+							src="images/calc.png" /> </a>
+					<p><b> <i>calculator </i></b>: web app of a functional calculator made using react</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>vlorrk © 2024. </p>
+		</div>
+		<script src="index.js"></script>
 	</div>
-	<div class="footer">
-		<p>vlorrk © 2024. </p>
-	</div>
-	<script src="index.js"></script>
 </body>
 
 </html>
