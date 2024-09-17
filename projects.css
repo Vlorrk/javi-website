@@ -43,9 +43,7 @@
 	font-size: 1.25rem;
 }
 
-.showcaseOne,
-.showcaseTwo,
-.showcaseThree {
+.showcase {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
