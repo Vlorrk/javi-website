@@ -1,53 +1,49 @@
 .about-section {
 	background-color: #181818;
-	margin-top: 30px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 2rem;
 	display: flex;
 	color: white;
-	word-spacing: 2px;
-}
-
-.about-section h1 {
-	font-size: 50px;
+	word-spacing: .1rem;
+	padding: 2rem;
 }
 
 .about-section img {
-	margin: 30px;
-	width: 550px;
-	height: 550px;
+	margin: 1rem;
+	width: 35%;
+	height: auto;
 }
 
 .about-section p {
 	text-align: center;
 	font-size: 1.25rem;
-	margin: 30px;
-	margin-left: 100px;
+	margin: 1.5rem;
+	margin-left: 10rem;
 	width: 70%;
 	border-top: 1px solid gray;
-	padding-top: 40px;
+	padding-top: 1.5rem;
 	position: relative;
-	left: 50px;
+	left: 1.5rem;
 }
 
 .social-links {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 50px;
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+	padding-left: 5rem;
 }
 
 .fa {
-	padding: 15px;
+	padding: 1rem;
 	font-size: 1.25rem;
-	width: 50px;
-	height: 50px;
+	width: 2.5em;
+	height: auto;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	line-height: 15px;
 	vertical-align: middle;
-	margin: 5px 50px;
+	margin: .5em;
 }
 
 .fa:hover {
@@ -65,6 +61,6 @@
 }
 
 .fa-github {
-	font-size: 3rem;
+	background: #483248;
 	color: white;
 }
